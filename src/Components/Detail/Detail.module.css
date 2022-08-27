@@ -1,0 +1,407 @@
+.breadcrumb {
+    background: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+.text {
+    text-align: left !important;
+}
+
+.list {
+    z-index: 8;
+    position: relative;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    line-height: 1;
+}
+
+.list li {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+
+.list>li {
+    color: #999;
+}
+
+.list>li>a {
+    color: #666 !important;
+}
+
+.list .li :after {
+    right: 0;
+    content: "/";
+    margin: 0 5px 0 10px;
+    color: #333;
+}
+
+.list .li :after {
+    color: #666;
+}
+
+.inner {
+    margin-bottom: 100px;
+}
+
+.gallery {
+    position: relative;
+}
+
+.preview {
+    margin-bottom: 16px;
+}
+
+.content {
+    border-radius: 8px;
+    background: white;
+}
+
+.name {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 5px;
+    color: #333;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.details-rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.rating ul li div .ant-rate-star-second span {
+    font-size: 12px !important;
+}
+
+.inventory {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.inventorytitle {
+    color: #333;
+}
+
+.variantinventory {
+    color: #d3122a;
+    font-weight: 600;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+
+
+.price span {
+    color: #333;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #333;
+
+}
+
+.information button {
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border: none;
+    background: #fff;
+
+}
+
+.information button i {
+    margin-right: 8px;
+
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.shopquantity {
+    flex-basis: 25%;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+    font-weight: 500;
+    font-family: Work Sans, sans-serif;
+}
+
+.quantityvalue {
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    margin: 0 10px 0 30px;
+}
+
+.dec {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.inc {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.quantityvalue input {
+    border: none;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+.cart {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.productcart button {
+    background-color: #333;
+    color: #fff !important;
+    border-color: #333;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0;
+    border: 1px solid #333;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 13px 45px;
+    letter-spacing: 1px;
+    transition: all .3s ease 0s;
+}
+
+.productcart button:hover {
+    background-color: #0000;
+    color: #333 !important;
+    border-color: #333;
+}
+
+.wishlist a i {
+    font-size: 22px;
+    border: 1px solid #d8d8d8;
+    width: 48px;
+    display: block;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+    color: #d8d8d8;
+}
+
+.wishlist a i:hover {
+    background: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.wishlist {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.custom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.custom>div>p {
+    color: #333;
+    font-size: 18px;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.info table {
+    width: 100%;
+}
+
+.info table tr td {
+    padding-left: 0;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.quickview {
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+    font-weight: 500;
+    width: 80px;
+}
+
+.icons .social .face {
+    background: #3b5998;
+    text-align: center;
+    display: inline-block !important;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 20px !important;
+    width: 40px;
+    height: 40px;
+    color: #fff !important;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.icons .social .face:hover {
+    background: #3b5998;
+    opacity: .7;
+}
+
+.icons .social .twin {
+    background: #1da1f2;
+    text-align: center;
+    display: inline-block !important;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 20px !important;
+    width: 40px;
+    height: 40px;
+    color: #fff !important;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.icons .social .twin:hover {
+    background: #1da1f2;
+    opacity: .7;
+}
+
+.icons .social .pin {
+    background: #bd081b;
+    text-align: center;
+    display: inline-block !important;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 20px !important;
+    width: 40px;
+    height: 40px;
+    color: #fff !important;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.icons .social .pin:hover {
+    background: #bd081b;
+    opacity: .7;
+}
+
+.wrapper {
+    margin-bottom: 100px;
+}
+
+.tab {
+    border-top: 1px solid #ededed;
+    padding-top: 80px !important;
+}
+
+.tableft {
+    margin-bottom: 40px
+}
+
+.tabnav {
+    border-bottom: none;
+}
+
+.tab .tableft .tabnav .active{
+    font-size: 28px;
+    line-height: 50px;
+    color: #ababab;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.tab .tableft .tabnav a:hover {
+    color: #333;
+}
+
+.show {
+    display: none;
+}
+
+.spr {
+    padding: 24px;
+    border: 1px solid #ECECEC;
+}
+
+.sprheader {
+
+    font-size: 24px;
+    margin: 0 0 12px 0;
+}
+
+.newreview {
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0;
+    border: 1px solid #333;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff!important;
+    border-color: #333;
+}
+.sprsummary{
+    display: flex;
+    justify-content: space-between;
+}
+.newreview:hover {
+    background-color: #0000;
+    color: #333!important;
+    border-color: #333;
+}
+.actives{
+    color: #333 !important;
+}
+.pane{
+    display: block;
+}

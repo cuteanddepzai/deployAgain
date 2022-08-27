@@ -1,0 +1,20 @@
+.setPad
+{
+    padding: 0 45px;
+    margin-bottom: 70px;
+}
+.link_img
+{
+    width: 100%;
+}
+.setMb
+{
+    margin-bottom: 30px;
+}
+@media (max-width : 767px)
+{
+    .setPad
+    {
+        padding: 0 15px;
+    }
+}

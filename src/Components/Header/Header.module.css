@@ -1,0 +1,275 @@
+.inputSearch
+{
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+.resultSearch
+{
+  position: absolute;
+  top: 100%;
+    width: 100%;
+    right: 0;
+    overflow: scroll;
+    z-index: 200;
+    height: 380px;
+}
+.searchIpad i
+{
+  font-size: 20px;
+}
+.setMargin
+{
+  padding: 40px 80px;
+}
+.inputSearch .divinput{
+  flex: 6;
+  padding: 0 15px;
+  border: none;
+}
+.inputSearch .divinput input 
+{
+  padding: 0 15px;
+  border: none;
+}
+.inputSearch input:focus
+{
+  outline: none;
+}
+.inputSearch div 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.hobbyCart
+{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hobbyCart div a 
+{
+  color: #000;
+  display: flex;
+}
+.hobbyCart div a:hover 
+{
+  text-decoration: none;
+}
+.iconSearchInput {
+  font-size: 25px;
+  opacity: 0.7;
+}
+.setMr a i 
+{
+  font-size: 30px
+}
+.setMr a .p1 
+{
+  font-size: 16px;
+}
+@media (max-width : 575px)
+{
+  .inputSearch
+  {
+    display: none;
+  }
+  .setDisplay
+  {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+.setMr a .p1 
+{
+ display : none
+}
+.setMargin
+  {
+    padding: 40px 10px;
+  }
+  .setMr a i 
+  {
+    font-size: 20px;
+  }
+  .icdown i
+  {
+    font-size: 30px;
+  }
+  .icmenu i 
+  {
+    font-size: 25px;
+  }
+  
+  .im
+  {
+    width: 125px;
+  }
+  .hobbyCart
+  {
+    padding: 0;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+}
+@media (min-width : 576px) and (max-width:767px)
+{
+  .inputSearch
+  {
+    display: none;
+  }
+  .setDisplay
+  {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .im
+  {
+    width: 138px;
+  }
+
+.setMr a .p1 
+{
+  display : none
+}
+.setMargin
+  {
+    padding: 40px 35px;
+  }
+  .setMr a i 
+  {
+    font-size: 20px;
+  }
+  .icdown i
+  {
+    font-size: 30px;
+  }
+  .icmenu i 
+  {
+    font-size: 25px;
+  }
+  .setMr 
+  {
+    padding-left: 20px;
+  }
+}
+@media (min-width : 768px) and (max-width:991px)
+{
+  .inputSearch
+  {
+    display: none;
+  }
+  .setDisplay
+  {
+    justify-content: space-between;
+  }
+  .setMargin
+  {
+    padding: 40px 40px;
+  }
+  .setMr a i 
+  {
+    font-size: 20px;
+  }
+  .im{
+    width: 145px;
+  }
+.setMr a .p1 
+{
+ display : none
+}
+.icdown i
+  {
+    font-size: 30px;
+  }
+  .icmenu i 
+  {
+    font-size: 25px;
+  }
+  .setMr
+{
+  margin-left: 40px;
+}
+}
+@media (min-width : 992px) and (max-width:1199px)
+{
+  .searchIpad
+  {
+    display: none;
+  }
+  .icdown , .icmenu 
+  {
+    display: none;
+  }
+  .iconsame 
+  {
+    padding-left: 20px;
+  }
+}
+@media (min-width : 1200px)
+{
+  .searchIpad
+  {
+    display: none;
+  }
+  .icdown , .icmenu 
+  {
+    display: none;
+  }
+  .iconsame 
+  {
+    padding-left: 20px;
+  }
+}
+.do 
+{
+  color: red;
+}
+.xanh
+{
+  color: green;
+}
+@media (max-width : 991px) 
+{
+  .setMr a 
+  {
+    position: relative;
+  }
+  .setMr a .p2 
+  {
+    position: absolute;
+    top: -100%;
+    display: block;
+    color: red;
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width : 992px) 
+{
+  .setMr a 
+  {
+    position: relative;
+  }
+  .setMr a .p2 
+  {
+    position: absolute;
+    top: -50%;
+    display: block;
+    color: red;
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,39 @@
+.Macbook
+{
+    background-color: #F6F6F6;
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+.title h2 
+{
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.title p 
+{
+    display: flex;
+}
+.MacbookShow
+{
+    margin-top: 50px;
+}
+.listOption 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2.8;
+}
+.listOption:hover 
+{
+    cursor: pointer;
+}
+.optionDetail .listOption span 
+{
+    font-size: 24px;
+}
+.optionDetail .listOption i 
+{
+    font-size: 18px;
+}

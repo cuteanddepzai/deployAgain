@@ -1,0 +1,69 @@
+.pathMyCart
+{
+    background-color: #F6F6F6;
+}
+.setDisplay 
+{
+    display: flex;
+    padding: 30px 15px;
+}
+.setDisplay p 
+{
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+.iconClose 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.setMb
+{
+    margin-top: 50px;
+}
+.setAlig
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.setAlig .Detail
+{
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+.Total
+{
+    padding: 10px 15px;
+    background-color: #ccc;
+    font-size: 16px;
+}
+.upDown span
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.upDown i 
+{
+    font-size: 25px;
+}
+.TotalClear 
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.priceTotal:hover 
+{
+    cursor: pointer;
+}
+.detete:hover
+{
+    cursor: pointer;
+}

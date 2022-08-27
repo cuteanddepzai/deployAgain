@@ -1,0 +1,47 @@
+.contegary div div h4
+{
+    font-family: "Work Sans", sans-serif;
+    display: inline-block;
+    padding: 25px 30px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+}
+.noActiveBtn
+{
+    font-family: "Work Sans", sans-serif;
+    border: none;
+    padding: 16px 23px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width : 767px) 
+{
+    .setJustify
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+.activeBtn
+{
+    border-bottom: 5px solid #000;
+    font-family: "Work Sans", sans-serif;
+    border: none;
+    padding: 16px 23px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+}
+.productActive 
+{
+    display: block;
+    margin-top: 50px;
+}
+.productNoActive
+{
+    display: none;
+}

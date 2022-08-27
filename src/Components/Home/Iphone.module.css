@@ -1,0 +1,66 @@
+.ContentIphone
+{
+    text-align: center;
+}
+.ContentIphone h2 
+{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: "Work Sans", sans-serif;
+}
+.ContentIphone p 
+{
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-family: "Work Sans", sans-serif;
+}
+.setMb
+{
+    margin-bottom: 100px;;
+}
+.div2 
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.div2 span 
+{
+    margin-top: 15px;
+}
+.div1 img 
+{
+    width: 100%;
+}
+.div1 
+{
+    position: relative;
+}
+.hoverSale
+{
+    position: absolute;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: #D3122A;
+    border-radius: 18px;
+    left: 10%;
+    top: 0;
+}
+.hoverDetail 
+{
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    display: none;
+}
+.hoverDisplay:hover .hoverDetail
+{
+    display: block;
+}
