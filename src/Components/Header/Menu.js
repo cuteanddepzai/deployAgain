@@ -13,7 +13,7 @@ const Menu = () => {
                         <Link to='/Mac'>MAC</Link>
                     </li>
                     <li>
-                        <a href='/Iphone'>IPHONE</a>
+                        <Link to='/Iphone'>IPHONE</Link>
                     </li>
                     <li>
                         <a href=''>ABOUT US</a>

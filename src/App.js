@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState , useEffect} from 'react';
+import { useState} from 'react';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import { Routes , Route } from 'react-router-dom';
 import MyCart from './Components/MyCart/Mycart';
 import Wishlist from './Components/Wishlist/Wishlist';
-import Menu from './Components/Header/Menu';
 import Home from './Components/Home/Home';
 import Detail from './Components/Detail/Detail';
 import Shop from './Components/Shop/Shop';
@@ -41,8 +40,7 @@ function App() {
         <Route path='/detail/:id' element={<Detail renderData = {dataJs} CountAdd = {CountAdd} setCountAdd = {setCountAdd} ListAdd = {ListAdd}  setListAdd = {setListAdd}/>}/>
         <Route path='/Mac' element ={<Shop renderData = {MacData} title = {titleMac} CountAdd = {CountAdd} setCountAdd = {setCountAdd} ListAdd = {ListAdd}  setListAdd = {setListAdd}/>} />
         <Route path='/Iphone' element ={<Shop renderData = {iPhoneData} title = {titleIphone} CountAdd = {CountAdd} setCountAdd = {setCountAdd} ListAdd = {ListAdd}  setListAdd = {setListAdd}/>} />
-
-
+        
       </Routes>
       <Footer />
     </div>

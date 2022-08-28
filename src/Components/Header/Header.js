@@ -1,14 +1,10 @@
-import { Routes, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import axios from "axios";
 import "../UI/responsive.css";
 import Cart from "../UI/Cart";
 import classes from "../Header/Header.module.css";
-import Wishlist from "../Wishlist/Wishlist";
-import MyCart from "../MyCart/Mycart";
 import Menu from "./Menu";
 import Modal from "../Modal/Modal";
-import Home from "../Home/Home";
 import SearchBar from "../Home/SearchBar";
 const Header = (props) => {
   const [ModalScreen, setModalScreen] = useState(false);
@@ -55,13 +51,13 @@ const Header = (props) => {
             </div>
             <div className={`${classes.hobbyCart} col-sm-4`}>
               <div className={`${classes.searchIpad} ${classes.setMr}`}>
-                <i class={`fa fa-search ${classes.iconSearchInput}`}></i>
+                <i className={`fa fa-search ${classes.iconSearchInput}`}></i>
               </div>
               <div
                 className={`${classes.iconsame} ${classes.setSpace} ${classes.setMr}`}
               >
                 <Link to="/Wishlist">
-                  <i class="fa-regular fa-heart"></i>
+                  <i className="fa-regular fa-heart"></i>
                   <p className={classes.p1}>WISHLIST</p>
 
                 </Link>
