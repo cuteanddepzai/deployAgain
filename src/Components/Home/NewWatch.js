@@ -1,4 +1,4 @@
-import { useState , useRef } from "react";
+import { useRef } from "react";
 import styles from "../Home/NewWatch.module.css";
 
 import classes from '../Home/Iphone.module.css'
@@ -26,7 +26,7 @@ const NewWatch = (props) => {
       <div className={`row`}>
         <div className="col-lg-4 col-md-6">
           <div>
-            <img src="https://cdn.shopify.com/s/files/1/0023/4104/4283/files/fdfdfdf.jpg?v=1643623055" style={{width : '100%'}} />
+            <img src="https://cdn.shopify.com/s/files/1/0023/4104/4283/files/fdfdfdf.jpg?v=1643623055" alt ='no img' style={{width : '100%'}} />
           </div>
         </div>
         <div className="col-lg-8 col-md-6">
@@ -57,6 +57,7 @@ const NewWatch = (props) => {
                             event.preventDefault()
                             handDetail(each.id)
                           }}
+                          alt = 'no img'
                         />
                         {each.sale && (
                           <span className={classes.hoverSale}>

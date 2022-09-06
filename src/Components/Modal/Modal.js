@@ -1,7 +1,5 @@
 import "./Modal.css";
-import classes from "../Header/Header.module.css";
 import { useState } from "react";
-import {Link} from 'react-router-dom'
 const Modal = (props) => {
   const [show , setShow] = useState(false)
   const [show2 , setShow2] = useState(false)

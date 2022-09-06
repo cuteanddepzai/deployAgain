@@ -97,6 +97,7 @@ const NewArrival = (props) => {
                           event.preventDefault()
                           handDetail(each.id)
                         }}
+                        alt = 'no img'
                       />
                       {each.sale && (
                         <span className={classes.hoverSale}>{each.sales}</span>
@@ -164,6 +165,7 @@ const NewArrival = (props) => {
                           event.preventDefault()
                           handDetail(each.id)
                         }}
+                        alt = 'no img'
                       />
                       {each.sale && (
                         <span className={classes.hoverSale}>{each.sales}</span>

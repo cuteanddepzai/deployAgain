@@ -1,13 +1,9 @@
 import styles from "../Shop/Shop.module.css";
 import { Link } from "react-router-dom";
 import classes from "../Home/Iphone.module.css";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef} from "react";
 import { useNavigate } from "react-router-dom";
 const Shop = (props) => {
-  const [cate , setcate] = useState(true)
-  const [menu,setmenu] = useState(true)
-  const [avai,setavai] = useState(true)
-  const [filterPrice , setFilterPrice] = useState(true)
   const imgElement = useRef();
   let navagitave = useNavigate();
   const HandleAddCart = (obj) => {
@@ -61,6 +57,7 @@ const Shop = (props) => {
                   <img
                     src="https://cdn.shopify.com/s/files/1/0023/4104/4283/files/fdfdfdf_grande.jpg?v=1643623055"
                     style={{ width: "100%" }}
+                    alt = ' no img'
                   />
                 </div>
               </div>

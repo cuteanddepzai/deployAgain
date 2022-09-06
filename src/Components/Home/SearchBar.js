@@ -27,11 +27,6 @@ function SearchBar({ placeholder, data }) {
     console.log(searchWord)
   };
 
-  const clearInput = () => {
-    setFilteredData([]);
-    setWordEntered("");
-  };
-
   return (
     <div className="search">
       <div className="searchInputs">
@@ -43,7 +38,7 @@ function SearchBar({ placeholder, data }) {
           onBlur = {() => {setDisplay(false)}}
         />
       </div>
-      {display && filteredData.length != 0 && (
+      {display && filteredData.length !== 0 && (
         <div className = 'dataResult' onMouseDown={(e)=>{e.preventDefault()}} >
           {filteredData.slice(0, 15).map((value, key) => {
             return (

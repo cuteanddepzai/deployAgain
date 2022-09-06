@@ -4,8 +4,6 @@ import Iphone from "./Iphone"
 import NewArrival from "./NewArrival"
 import CountDown from "./CountDown"
 import NewWatch from "./NewWatch"
-import Header from "../Header/Header"
-import Menu from "../Header/Menu"
 import { useState , useEffect } from "react"
 const Home = (props) => {
     const [productHome, setProductHome] = useState([]);

@@ -1,5 +1,5 @@
 import classes from "../Home/Iphone.module.css";
-import { useState, useRef, useEffect } from "react";
+import {useRef} from "react";
 import { useNavigate } from "react-router-dom";
 const Iphone = (props) => {
   const imgElement = useRef();
@@ -51,6 +51,7 @@ const Iphone = (props) => {
                         event.preventDefault();
                         handDetail(each.id);
                       }}
+                      alt ='no img'
                     />
                     {each.sale && (
                       <span className={classes.hoverSale}>{each.sales}</span>

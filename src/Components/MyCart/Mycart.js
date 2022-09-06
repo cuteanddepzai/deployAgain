@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import classes from "../MyCart/Mycart.module.css";
@@ -98,7 +98,7 @@ const MyCart = (props) => {
               <div key={index} className={`col-md-12`}>
                 <div className={`row ${classes.setMb}`}>
                   <div className={`col-md-4`} style = {{display:"flex" , alignItems :'center' , justifyContent :'center'}}>
-                    <img src={each.img} style={{ width: "50%" }} />
+                    <img src={each.img} style={{ width: "50%" }} alt = 'no  img'/>
                   </div>
                   <div className={`col-md-4 ${classes.setAlig}`}>
                     <h2>{each.name}</h2>

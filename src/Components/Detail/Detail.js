@@ -30,7 +30,7 @@ const Detail = (props) => {
                         <div className={`${css.text} col-lg-12 `}>
                             <nav >
                                 <ul className={`${css.list}`}>
-                                    <li className={`${css.li}`}><a>Home</a></li>
+                                    <li className={`${css.li}`}><a href='/'>Home</a></li>
                                     <li><span>Shop</span> </li>
                                 </ul>
                             </nav>
@@ -44,9 +44,9 @@ const Detail = (props) => {
                         <div className='col-lg-6'>
                             <div className={css.gallery}>
                                 <div className={css.preview}>
-                                    <a>
+                                    
                                         <Image src={product.img} />
-                                    </a>
+                                    
                                 </div>
 
                             </div>
@@ -99,7 +99,7 @@ const Detail = (props) => {
                       }}>Add to cart</button>
                                     </div>
                                     <div className={css.wishlist}>
-                                        <a className={css.action}>
+                                        <a href='/Wishlist' className={css.action}>
                                             <i className="fa-solid fa-heart"></i>
                                         </a>
                                     </div>
@@ -123,9 +123,9 @@ const Detail = (props) => {
                                                 <td className={css.quickviewvalue}>
                                                     <div className={css.icons}>
                                                         <div className={css.social}>
-                                                            <a className={css.face}><i className="fa-brands fa-facebook-f"></i></a>
-                                                            <a className={css.twin}><i className="fa-brands fa-twitter"></i></a>
-                                                            <a className={css.pin}><i className="fa-brands fa-pinterest"></i></a>
+                                                            <a href='' className={css.face}><i className="fa-brands fa-facebook-f"></i></a>
+                                                            <a href='' className={css.twin}><i className="fa-brands fa-twitter"></i></a>
+                                                            <a href='' className={css.pin}><i className="fa-brands fa-pinterest"></i></a>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -149,9 +149,9 @@ const Detail = (props) => {
                                         <div className={css.tab}>
                                             <div className={css.tableft}>
                                                 <div className={`nav  justify-content-center ${css.tabnav}`}>
-                                                    <a className={ show === 0 ? `${css.active}  ${css.actives}` : `${css.active} `} onClick={()=>setShow(0)}> Description</a>
-                                                    <a className={show === 1 ? `${css.active} ${css.actives} ` : `${css.active}`} onClick={()=>setShow(1)}>  Review</a>
-                                                    <a className={show === 2 ? `${css.active} ${css.actives} ` : `${css.active}`} onClick={()=>setShow(2)}>  Custom Tab</a>
+                                                    <a href='' className={ show === 0 ? `${css.active}  ${css.actives}` : `${css.active} `} onClick={(e)=>{e.preventDefault() ;setShow(0)}}> Description</a>
+                                                    <a href='' className={show === 1 ? `${css.active} ${css.actives} ` : `${css.active}`} onClick={(e)=>{e.preventDefault() ;setShow(1)}}>  Review</a>
+                                                    <a href='' className={show === 2 ? `${css.active} ${css.actives} ` : `${css.active}`} onClick={(e)=>{e.preventDefault() ;setShow(2)}}>  Custom Tab</a>
                                                 </div>
                                             </div>
                                             <div className={`${css.tabcontent}`}>
@@ -170,7 +170,7 @@ const Detail = (props) => {
                                                             <div className={css.sprsummary}>
                                                                 <span className={css.caption}>No reviews yet</span>
                                                                 <span className={css.caption}>
-                                                                    <a className={css.newreview}>Write a review</a>
+                                                                    <a href='' className={css.newreview}>Write a review</a>
                                                                 </span>
                                                             </div>
                                                         </div>

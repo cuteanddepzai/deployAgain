@@ -9,7 +9,7 @@ const Card = (props) => {
                     }).map((each,index) => {
                         return <div key={index} className = {`col-lg-4 col-md-6 ${classes.setMb}`}>
                             <a href=''>
-                                <img src={each.img} className={`${classes.link_img}`}/>
+                                <img src={each.img} className={`${classes.link_img}`} alt ='no img'/>
                             </a>
                         </div>
                     })
