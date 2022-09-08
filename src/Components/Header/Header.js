@@ -16,7 +16,7 @@ const Header = (props) => {
   };
   const [productHome, setProductHome] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/product")
+    fetch("https://dm-ku.herokuapp.com/product")
       .then((response) => response.json())
       .then((data) => {
         setProductHome(data);

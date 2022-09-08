@@ -8,7 +8,7 @@ const Detail = (props) => {
     const {id} = useParams()
     const [product,setProduct] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:3000/product/${id}`)
+        fetch(`https://dm-ku.herokuapp.com/product/${id}`)
           .then((response) => response.json())
           .then((data) => {
             setProduct(data);
